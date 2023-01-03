@@ -68,9 +68,12 @@
 				</div>
 				<ul>
 					<?php
-						$new_goods_sql = "select id, title, {$member_check} from goods LIMIT 5,6";
-						$new_goods_res = $connect->query($new_goods_sql) or die();
-						while($new_goods = mysqli_fetch_array($new_goods_res)){
+						$new_goods_index_sql = "select goods_id from index_goods_view where view_name = 'new_goods'";
+						$new_goods_index_res = $connect->query($new_goods_index_sql) or die();
+						while($new_goods_index = mysqli_fetch_array($new_goods_index_res)){
+							$new_goods_sql = "select id, title, {$member_check} from goods where id = {$new_goods_index['goods_id']}";
+							$new_goods_res = $connect->query($new_goods_sql) or die();
+							$new_goods = mysqli_fetch_array($new_goods_res);
 							$new_goods_img_sql = "select url from goods_img where goods_id = {$new_goods["id"]} AND image_order='1'";
 							$new_goods_img_res = $connect->query($new_goods_img_sql) or die();						
 					?>
@@ -100,9 +103,12 @@
 					</div>
 					<ul>
 						<?php
-							$event_goods_sql = "select id, title, {$member_check} from goods LIMIT 5,3";
-							$event_goods_res = $connect->query($event_goods_sql) or die();
-							while($event_goods = mysqli_fetch_array($event_goods_res)){
+							$event_goods_index_sql = "select goods_id from index_goods_view where view_name = 'sale_goods'";
+							$event_goods_index_res = $connect->query($event_goods_index_sql) or die();
+							while($event_goods_index = mysqli_fetch_array($event_goods_index_res)){
+								$event_goods_sql = "select id, title, {$member_check} from goods where id = {$event_goods_index['goods_id']}";
+								$event_goods_res = $connect->query($event_goods_sql) or die();
+								$event_goods = mysqli_fetch_array($event_goods_res);
 								$event_goods_img_sql = "select url from goods_img where goods_id = {$event_goods["id"]} AND image_order='1'";
 								$event_goods_img_res = $connect->query($event_goods_img_sql) or die();	
 						?>

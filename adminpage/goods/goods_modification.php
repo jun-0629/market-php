@@ -44,6 +44,10 @@
 				<ul>
 					<li><a href="goods.php">상품 목록</a></li>
 					<li><a href="goods_add.php">상품 추가</a></li>
+					<li><a href="goods_new.php">신규 상품 등록</a></li>
+					<li><a href="goods_new_delete.php">신규 상품 제거</a></li>
+					<li><a href="goods_sale.php">특가 할인 상품 등록</a></li>
+					<li><a href="goods_sale_delete.php">특가 할인 상품 제거</a></li>
 				</ul>
 				<a class="logout" href="../login/logout.php">로그아웃</a>
 			</div>
