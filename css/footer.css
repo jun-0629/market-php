@@ -1,0 +1,75 @@
+.footer{
+	margin-top: 100px;
+}
+
+.footer_menu {
+	min-width: 1280px;
+	border-top: 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	font-size: 0;
+}
+
+.footer_menu > .footer_menu_margin a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	border-right: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 0 15px;
+}
+
+.footer_menu .footer_menu_margin > a:last-child{
+	border-right: none;
+}
+
+.footer_menu_margin{
+	width: 1280px;
+	margin: 0 auto;
+	padding: 3px 0;
+}
+
+.footer_contents{
+	width: 1280px;
+	margin: 30px auto;
+}
+
+.footer_contents tr > td{
+	vertical-align : top;
+	height: 200px;
+}
+
+.footer_contents tr td:first-child{
+	width: 15%;
+}
+
+.footer_contents tr td:last-child{
+	width: 45%;
+}
+
+.footer_main_text p{
+	font-size: 14px;
+}
+
+.footer_main_text p:first-child{
+	font-size: 16px;
+}
+
+.footer_contents tr td .hp{
+	font-size: 25px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footer_contents tr td .kakao{
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+.footer_contents tr td .time{
+	font-size: 17px;
+	line-height: 2em;
+}
+p{
+	margin: 0;
+}

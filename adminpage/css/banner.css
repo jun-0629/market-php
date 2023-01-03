@@ -1,0 +1,97 @@
+.main_view h1{
+	font-size: 18px;
+    margin: 0 0 10px;
+    font-weight: normal;
+}
+
+.banner_add{
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+}
+
+.banner_add table{
+	width: 100%;
+	border-collapse: collapse;
+	box-sizing: border-box;
+}
+
+.banner_add table tr td{
+	padding: 0;
+}
+
+.banner_add table tr:last-child td:last-child{
+	padding: 0;
+	text-align: center;
+}
+
+.banner_add table tr:last-child td button{
+	width: 300px;
+	height: 50px;
+	border: none;
+	outline: none;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	padding: 0;
+	cursor: pointer;
+	margin: 10px 0;
+}
+
+.banner_add table tr{
+	border-top: 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.banner_add table tr td:first-child{
+	width: 200px;
+	border-right: 1px solid rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+}
+
+.banner_add table tr td:last-child{
+	padding: 10px;
+}
+
+.ex_text{
+	margin-top: 5px;
+	font-size: 13px;
+	opacity: 0.5;
+}
+
+.preview_img{
+	max-height: 200px;
+	margin-top: 5px;
+	vertical-align: bottom;
+}
+
+.banner_change_view{
+	width: 500px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.banner_change_view  > li{
+	cursor: grab;
+	border: 1px solid rgb(0, 0, 0);
+	box-sizing: border-box;
+	width: 500px;
+	height: 60px;
+	font-size: 24px;
+	margin-bottom: 2.5px;
+	line-height: 30px;
+	text-align: center;
+	line-height: 60px;
+	background-size: cover;
+	color: rgb(210, 210, 210);
+	font-weight: bold;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.banner_change_view > li:last-child{
+	margin: 0;
+}
+
+.banner_change_view > li:active{
+	cursor: grabbing;
+}

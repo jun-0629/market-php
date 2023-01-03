@@ -1,0 +1,232 @@
+.changing_information{
+	width: 1280px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 0;
+}
+
+.changing_information_data_view {
+	font-size: 1rem;
+	width: 1080px;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.changing_information_data_view h1{
+	margin: 0;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.changing_information_data_view li:first-child{
+	padding: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+
+.changing_information_data_view li:last-child{
+	border-bottom: 0;
+	font-size: 0;
+	text-align: center;
+	padding: 0;
+	position: relative;
+	margin-top: 50px;
+}
+
+.changing_information_data_view li{
+	padding: 10px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 0;
+}
+
+.changing_information li > span{
+	font-size: 1rem;
+}
+
+.changing_information_data_view li > span:first-child{
+	display: inline-block;
+	width: 190px;
+	padding-left: 10px;
+}
+
+.changing_information_data_view input[type="text"], 
+.changing_information_data_view input[type="email"], 
+.changing_information_data_view select{
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	outline: none;
+	box-sizing: border-box;
+	padding: 0;
+	width: 500px;
+	height: 40px;
+	text-indent: 5px;
+}
+
+.changing_information_data_view .address_data{
+	font-size: 0;
+	display: inline-block;
+	width: 880px;
+	vertical-align: top;
+}
+
+.address_data .address_search{
+	width: 100px;
+	height: 40px;
+	border: 0;
+	padding: 0;
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	margin-left: 5px;
+	font-size: 14px;
+}
+
+.address_data input[name="zip_code"]{
+	width: 395px;
+}
+
+.address_data div{
+	margin-bottom: 5px;
+}
+
+.address_data div:last-child{
+	margin-bottom: 0;
+}
+
+.changing_information_data_view li:last-child button{
+	background-color: rgb(255, 255, 255);
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	padding: 0;
+	height: 60px;
+}
+
+.changing_information_data_view li:last-child button.set_but{
+	width: 220px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+}
+
+.changing_information_data_view li:last-child button.remove_member{
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	width: 150px;
+	font-size: 18px;
+	position: absolute;
+	right: 0;
+}
+
+.changing_information_data_view .number_data input, .changing_information_data_view .number_data select{
+	width: 100px;
+}
+
+.ui-check-date select{
+	width: 100px;
+}
+
+.redio_span input[type="radio"]{
+	vertical-align: middle;
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	margin: 0;
+}
+
+.redio_span label{
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.redio_span label[for="sms_send_yes"], .redio_span label[for="email_send_yes"]{
+	margin-right: 20px;
+}
+
+.send_text, .password_text{
+	font-size: 14px;
+	opacity: 0.4;
+	padding-left: 200px;
+	margin-top: 5px;
+}
+
+.password_text{
+	padding-left: 150px;
+}
+
+.essential{
+	position: relative;
+}
+
+.essential::after{
+	position: absolute;
+	content: '*';
+	color: rgb(216, 86, 51);
+	top: 20%;
+}
+
+.changing_information li > span.essential_text{
+	position: absolute;
+	font-size: 12px;
+	bottom: 10px;
+	right: 0;
+}
+
+.essential_text::before{
+	position: absolute;
+	content: '*';
+	color: rgb(216, 86, 51);
+	top: 20%;
+	left: -7px;
+}
+
+.password_change_view{
+	display: inline-block;
+	width: 880px;
+	vertical-align: top;
+}
+
+.password_change_view > button{
+	width: 100px;
+	height: 40px;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	padding: 0;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.password_change_view > button:hover{
+	background-color: rgb(245, 245, 245);
+}
+
+.password_change_view > div{
+	display: none;
+	margin-bottom: 5px;
+	font-size: 0;
+}
+
+.password_change_view > div > span{
+	font-size: 1rem;
+	display: inline-block;
+	width: 150px;
+}
+
+.password_change_view > div > input{
+	border: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    box-sizing: border-box;
+    padding: 0;
+    width: 500px;
+    height: 40px;
+    text-indent: 5px;
+}
+
+.password_change_view > div.first_child{
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

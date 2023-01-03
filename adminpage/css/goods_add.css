@@ -1,0 +1,274 @@
+.main_view > h1{
+	font-size: 18px;
+	margin: 0 0 10px;
+	font-weight: normal;
+}
+
+.goods_add{
+	padding: 10px;
+	background-color: rgb(255, 255, 255);
+}
+
+.goods_add table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.goods_add table tr{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.goods_add table tr > td{
+	padding: 10px 0;
+}
+
+.goods_add table tr > td:first-child{
+	width: 200px;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.goods_add table tr td input{
+	width: 700px;
+	padding: 0;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	outline: none;
+	line-height: 35px;
+	box-sizing: border-box;
+	text-indent: 5px;
+	margin-left: 10px;
+}
+
+.goods_add table tr td select{
+	height: 35px;
+	outline: none;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	border-radius: 3px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.goods_add table tr td > iframe {
+	margin-left: 10px;
+}
+
+.goods_add table tr td > textarea{
+	width: 1044px;
+}
+
+.goods_add table tr td input[type="file"]{
+	border: none;
+	margin-left: 5px;
+}
+
+.image_preview .att_zone{
+	width: 700px;
+	min-height: 150px;
+	padding: 14px;
+	border: 1px dotted rgba(0, 0, 0, 0.4);
+	box-sizing: border-box;
+	margin-left: 10px;
+	list-style-type: none;
+	font-size: 0;
+}
+
+.image_preview .att_zone > span{
+	content : "파일을 첨부 하려면 파일 선택 버튼을 클릭하거나 파일을 드래그앤드롭 하세요";
+	font-size: 14px;
+	opacity: 0.5;
+}
+
+.image_preview .att_zone li{
+	display: inline-block;
+	position: relative;
+	cursor: grab;
+}
+.image_preview .att_zone li:active{
+	cursor: grabbing;
+}
+
+.image_preview .att_zone li:nth-child(3n+2){
+	margin: 0 5px;
+}
+
+.image_preview .att_zone li:nth-child(3n){
+	margin-bottom: 5px;
+}
+
+.image_preview .att_zone li:last-child{
+	margin-bottom: 0;
+}
+
+.image_preview .att_zone li:first-child::after{
+	content: "대표 이미지";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 100px 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+}
+
+.image_preview .att_zone li > img{
+	width: 220px;
+	height: 220px;
+	object-fit: cover;
+	vertical-align: bottom;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+}
+
+.add_but{
+	text-align: center;
+}
+
+.add_but button{
+	width: 250px;
+	height: 50px;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.8);
+	outline: none;
+	padding: 0;
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	margin: 20px 0;
+}
+
+.delete_goods_img{
+	font-size: 1rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: rgb(230, 100, 100);
+	color: rgb(50, 50, 50);
+	width: 22px;
+	line-height: 22px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	z-index: 100;
+}
+
+.image_preview .att_zone1{
+	width: 700px;
+	min-height: 150px;
+	padding: 14px;
+	border: 1px dotted rgba(0, 0, 0, 0.4);
+	box-sizing: border-box;
+	margin-left: 10px;
+	list-style-type: none;
+	font-size: 0;
+}
+
+.image_preview .att_zone1 li{
+	display: inline-block;
+	position: relative;
+}
+
+.image_preview .att_zone1 li:nth-child(3n+2){
+	margin: 0 5px;
+}
+
+.image_preview .att_zone1 li:nth-child(3n){
+	margin-bottom: 5px;
+}
+
+.image_preview .att_zone1 li:last-child{
+	margin-bottom: 0;
+}
+
+.image_preview .att_zone1 li:first-child::after{
+	content: "대표 이미지";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 100px 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+}
+
+.image_preview .att_zone1 li > img{
+	width: 220px;
+	height: 220px;
+	object-fit: cover;
+	vertical-align: bottom;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+}
+
+.goods_option{
+	padding: 10px !important;
+}
+
+.goods_add table tr td.goods_option div{
+	font-size: 0;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.goods_add table tr td.goods_option div > input{
+	margin: 0;
+	width: 658px;
+}
+
+.goods_option div > button[type="button"]{
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	border: none;
+	outline: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 0;
+	width: 37px;
+	line-height: 37px;
+	cursor: pointer;
+	margin-left: 5px;
+	position: absolute;
+}
+
+.goods_option table{
+	width: 100%;
+	text-align: center;
+}
+
+.goods_option table tr td{
+	width: 30%;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	padding: 0;
+}
+
+.goods_option table tr td:last-child{
+	width: 10%;
+}
+
+.goods_option table tr td input{
+	width: 100%;
+	margin: 0;
+	border: none;
+	text-align: center;
+}
+
+.goods_option table tr td select{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	border: 0;
+}
+
+.goods_option table tr td button{
+	font-size: 13px;
+	color: rgba(0, 0, 0, 0.6);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	outline: none;
+	background-color: rgb(255, 255, 255);
+	padding: 3.5px 8px;
+	cursor: pointer;
+	box-sizing: border-box;
+}

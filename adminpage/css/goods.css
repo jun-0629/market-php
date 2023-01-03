@@ -1,0 +1,151 @@
+.main_view h1{
+	font-size: 18px;
+    margin: 0 0 10px;
+    font-weight: normal;
+}
+
+.goods_list {
+	padding: 15px;
+	background-color: rgb(255, 255, 255);
+}
+
+.goods_list table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.goods_list table td{
+	padding: 0;
+	border-right: 1px solid rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.goods_list table td:last-child{
+	border: 0;
+}
+
+.goods_list table thead tr td{
+	height: 30px;
+}
+
+.goods_list table thead tr td:first-child{
+	width: 160px;
+}
+
+.goods_list table thead tr td:nth-child(2){
+	width: 40%;
+}
+
+.goods_list table thead tr td:nth-child(3){
+	width: 20%;
+}
+
+.goods_list table thead tr td:nth-child(4){
+	width: 7%;
+}
+
+.goods_list table thead tr td:nth-child(5){
+	width: 7%;
+}
+
+.goods_list table tr{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.goods_list table tbody tr td{
+	padding: 5px;
+}
+
+.goods_list table tbody tr:hover{
+	background-color: rgb(235, 235, 235);
+}
+
+.goods_list table tbody tr td div a{
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 70%;
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 5px;
+}
+
+.goods_list table tbody tr td div a:hover{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.goods_list table tbody tr td div:last-child a{
+	margin-bottom: 0;
+}
+
+.goods_list table tbody tr td img{
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+
+.member{
+	margin-bottom: 10px;
+}
+
+.paga_view {
+	text-align: center;
+}
+
+.paga_view a{
+	color: rgb(140, 140, 140);
+	padding: 0 5px;
+	text-decoration: none;
+	line-height: 28px;
+	margin: 0 3px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.paga_view a.page_check{
+	color: rgb(0, 0, 0);
+	border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.paga_view a.arrow{
+	padding: 0;
+	margin: 0 2px;
+}
+
+.goods_top_view{
+	position: relative;
+}
+
+.search_view{
+	font-size: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.search_view input{
+	width: 250px;
+	height: 24px;
+	border: 1px solid rgb(150, 150, 150);
+	outline: none;
+	padding: 0;
+	box-sizing: border-box;
+	margin-right: 34px;
+	text-indent: 5px;
+}
+
+.search_view button{
+	position: absolute;
+	width: 35px;
+	height: 24px;
+	right: 0;
+	border: 1px solid rgb(150, 150, 150);
+	outline: none;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+	background-color: rgb(255, 255, 255);
+}

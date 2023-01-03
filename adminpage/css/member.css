@@ -1,0 +1,131 @@
+.member_top > h1{
+	font-size: 18px;
+    margin: 0 0 10px;
+    font-weight: normal;
+}
+
+.member_info{
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+}
+
+.member_info table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.member_info table tr td{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-left: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.member_info table tr td:last-child{
+	border-right: 0;
+}
+
+.member_info table tr td:last-child a{
+	display: block;
+	text-decoration: none;
+	margin: 5px 0;
+	color: rgb(0, 0, 0);
+}
+
+.paga_view {
+	text-align: center;
+}
+
+.paga_view a{
+	color: rgb(140, 140, 140);
+	padding: 0 5px;
+	text-decoration: none;
+	line-height: 28px;
+	margin: 0 3px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.paga_view a.page_check{
+	color: rgb(0, 0, 0);
+	border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.paga_view a.arrow{
+	padding: 0;
+	margin: 0 2px;
+}
+
+.member_top{
+	position: relative;
+}
+
+.search_view{
+	font-size: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.search_view input{
+	width: 250px;
+	height: 24px;
+	border: 1px solid rgb(150, 150, 150);
+	outline: none;
+	padding: 0;
+	box-sizing: border-box;
+	margin-right: 34px;
+	text-indent: 5px;
+}
+
+.search_view button{
+	position: absolute;
+	width: 35px;
+	height: 24px;
+	right: 0;
+	border: 1px solid rgb(150, 150, 150);
+	outline: none;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+	background-color: rgb(255, 255, 255);
+}
+
+.search_view select{
+	height: 24px;
+	border: 1px solid rgb(150, 150, 150);
+	margin-right: 5px;
+	outline: none;
+}
+
+.member_more_information{
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+}
+
+.member_more_information table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.member_more_information table tr td{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-left: 0;
+	padding: 0;
+	padding: 10px;
+}
+
+.member_more_information table tr td:first-child{
+	width: 200px;
+}
+
+.member_more_information table tr td:last-child{
+	border-right: 0;
+}
+
+.member_more_information table tr td:last-child a{
+	display: block;
+	text-decoration: none;
+	margin: 5px 0;
+	color: rgb(0, 0, 0);
+}

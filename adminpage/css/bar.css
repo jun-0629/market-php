@@ -1,0 +1,145 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(235, 235, 235);
+}
+
+.parents_div{
+	display: table;
+	width: 100%;
+	min-width: 1280px;
+	max-width: 1920px;
+	margin: 0 auto;
+	font-size: 0;
+	min-height: 100vh;
+}
+
+.parents_div > .right_bar{
+	display: table-cell;
+	font-size: 1rem;
+}
+
+.left_bar {
+	display: table-cell;
+	font-size: 1rem;
+	width: 300px;
+	background-color: rgba(0, 0, 0, 0.5);
+	vertical-align: top;
+}
+
+.left_bar > ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.left_bar ul > li:first-child{
+	position: relative;
+	height: 50px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	box-sizing: border-box;
+}
+
+.left_bar ul li > img{
+	vertical-align: bottom;
+	width: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.left_bar ul li{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+	width: 100%;
+}
+
+.left_bar ul div > li:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.left_bar ul div{
+	position: absolute;
+	width: 300px;
+}
+
+.left_bar ul li > a{
+	display: inline-block;
+	width: 100%;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 44px;
+}
+
+.left_bar ul li a > img{
+	vertical-align: bottom;
+	width: 24px;
+	padding: 10px;
+}
+
+.left_bar ul li a > span{
+	font-size: 15px;
+}
+
+.top_bar{
+	position: relative;
+	height: 50px;
+	background-color: rgb(255, 255, 255);
+}
+
+.top_bar > ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 0;
+}
+
+.top_bar ul > li{
+	display: inline-block;
+	font-size: 1rem;
+}
+
+.top_bar > a.logout{
+	position: absolute;
+	width: 70px;
+	text-align: center;
+	top: 50%;
+	right: 0;
+	transform: translate(-15px, -50%);
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.footer_text{
+	font-size: 14px;
+	text-align: center;
+	opacity: 0.4;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.top_bar ul li > a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 0 15px;
+	display: inline-block;
+	line-height: 50px;
+}
+
+.top_bar ul li::after{
+	content: "";
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.top_bar ul li:last-child::after{
+	border-right: none;
+}
+
+.main_view{
+	margin: 15px;
+}

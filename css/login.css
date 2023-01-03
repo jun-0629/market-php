@@ -1,0 +1,134 @@
+.main{
+	min-width: 1280px;
+}
+
+.login_view{
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.login_view h2{
+	font-size: 32px;
+	border-bottom: 2px solid rgb(0, 0, 0);
+	text-align: center;
+}
+
+.login_view input[name="id"], .login_view input[name="password"]{
+	width: 100%;
+	height: 45px;
+	margin-top: 10px;
+	text-indent: 14px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.login_btn{
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background-color: rgb(137, 186, 52);
+	border: none;
+	outline: none;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.login_sub_function{
+	list-style-type: none;
+	font-size: 0;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.login_sub_function li{
+	display: inline-block;
+	font-size: 16px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.login_sub_function li:last-child{
+	border: none;
+}
+
+.login_sub_function li a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 0 5px;
+}
+
+.order_meeting{
+	width: 400px;
+	margin: 0 auto;
+	border-top: 1px solid rgb(0, 0, 0);
+	margin-top: 10px;
+}
+
+.order_meeting h3{
+	font-size: 18px;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 15px;
+}
+
+.order_meeting p{
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.order_info_table{
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+.order_info_table tr td:last-child button{
+	width: 90px;
+	height: 90px;
+	box-sizing: border-box;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	outline: none;
+	font-size: 16px;
+	font-weight: 550;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.order_info_table tr td:last-child{
+	width: 100px;
+}
+
+.order_info_table tr td:first-child input{
+	height: 26px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	outline: none;
+	text-indent: 8px;
+	box-sizing: border-box;
+	line-height: 29px;
+	width: 80%;
+}
+
+.order_info_table tr td:first-child div{
+	font-size: 0;
+}
+
+.order_info_table tr td:first-child div:nth-child(2),.order_info_table tr td:first-child div:nth-child(3){
+	margin-top: 6px;
+}
+
+.order_info_table tr td:first-child span{
+	font-size: 16px;
+	width: 20%;
+	display: inline-block;
+} 
+
+
+.id_check_text, .password_check_text{
+	font-size: 14px;
+	color: rgb(185, 71, 71);
+	text-align: left;
+	padding-top: 5px;
+}

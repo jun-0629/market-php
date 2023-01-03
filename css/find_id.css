@@ -1,0 +1,87 @@
+.find > .find_view > ul > .find_data_output_view{
+	display: none;
+}
+
+.find .find_view ul .find_data_output_view > .find_data_output_sub_text{
+	text-align: center;
+	font-size: 20px;
+	color: rgb(39, 136, 178);
+	font-weight: bold;
+	margin: 15px 0;
+}
+
+.find_data_output_view > li > table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.find_data_output_view > li > table > tbody > tr > td{
+	border: 1px solid rgb(200, 200, 200);
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.find_data_output_view > li > table > tbody > tr:first-child{
+	background-color: rgb(245, 245, 245);
+}
+
+.find_data_output_view > li > table > tbody > tr:first-child > td > p{
+	font-size: 14px;
+	padding: 3px 0;
+	margin-left: 10px;
+}
+
+.find_data_output_view > li > table > tbody > tr:first-child > td{
+	padding: 10px 0;
+}
+
+.find_data_output_view table.data_info{
+	width: 100%;
+	padding: 10px;
+}
+
+.find_data_output_view table.data_info > tbody > tr > td{
+	padding-bottom: 5px;
+}
+
+.find_data_output_view table.data_info > tbody > tr:last-child > td{
+	padding-bottom: 0;
+}
+
+.find_data_output_view table.data_info input[type="radio"]{
+	margin: 0;
+	margin-right: 3px;
+}
+
+.find_data_output_view table.data_info label{
+	cursor: pointer;
+}
+
+.emphasis{
+	color: rgb(216, 86, 51);
+	font-weight: bold;
+}
+
+.data_info_btn{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 0;
+}
+
+.data_info_btn > a{
+	font-size: 1rem;
+	text-decoration: none;
+	display: inline-block;
+	width: 49%;
+	line-height: 55px;
+	color: rgb(255, 255, 255);
+}
+
+.data_info_btn > a.login_page_but{
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-right: 2%;
+}
+
+.data_info_btn > a.find_password_page_btn{
+	background-color: rgba(0, 0, 0, 0.4);
+}

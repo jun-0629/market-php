@@ -1,0 +1,89 @@
+.main_view > h1{
+	font-size: 18px;
+	margin: 0 0 10px;
+	font-weight: normal;
+}
+
+.category_add_view{
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	font-size: 0;
+}
+
+.category_add_view select{
+	width: 32%;
+	height: 25px;
+	outline: none;
+	cursor: pointer;
+	margin-right: 2%;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	border-radius: 3px;
+}
+
+.category_add_view select:last-child{
+	margin: 0;
+}
+
+.category_add_view input[type="text"]{
+	width: 500px;
+	height: 40px;
+	padding: 0;
+	margin-top: 10px;
+	outline: none;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	border-radius: 3px;
+	box-sizing: border-box;
+	text-indent: 10px;
+}
+
+.category_add_view .select_div{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.category_add_view button{
+	width: 500px;
+	height: 50px;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	margin-top: 10px;
+	padding: 0;
+	cursor: pointer;
+}
+
+.category_add_view form{
+	margin: 0 auto;
+	width: 500px;
+}
+
+.category_change_view{
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+.category_change_view  > li{
+	font-size: 16px;
+	background-color: rgb(206, 220, 152);
+	margin: 1px 0;
+	line-height: 30px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.but_div{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.category_add_view .but_div > .loading_but{
+	width: 49%;
+	margin-right: 2%;
+}
+.category_add_view .but_div > .change_but{
+	width: 49%;
+}
