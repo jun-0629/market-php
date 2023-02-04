@@ -78,7 +78,7 @@
 							$new_goods_img_res = $connect->query($new_goods_img_sql) or die();						
 					?>
 					<li>
-						<a href="goods/goods?id=<?php echo $new_goods["id"]; ?>">
+						<a href="goods/goods.php?id=<?php echo $new_goods["id"]; ?>">
 							<img src="img/goods_main/<?php echo mysqli_fetch_array($new_goods_img_res)["url"]?>">
 							<div>
 								<p><?php echo $new_goods["title"]; ?></p>
@@ -113,7 +113,7 @@
 								$event_goods_img_res = $connect->query($event_goods_img_sql) or die();	
 						?>
 						<li>
-							<a href="goods/goods?id=<?php echo $event_goods["id"]; ?>">
+							<a href="goods/goods.php?id=<?php echo $event_goods["id"]; ?>">
 								<img src="img/goods_main/<?php echo mysqli_fetch_array($event_goods_img_res)["url"]?>">
 								<div class="event_goods_title"><?php echo $event_goods["title"]; ?></div>
 								<div class="event_goods_price"><?php echo number_format($event_goods["{$member_check}"]); ?>원</div>
@@ -137,7 +137,7 @@
 						$all_goods_img_res = $connect->query($all_goods_img_sql) or die();						
 				?>
 				<li>
-					<a href="goods/goods?id=<?php echo $all_goods["id"]; ?>">
+					<a href="goods/goods.php?id=<?php echo $all_goods["id"]; ?>">
 						<img src="img/goods_main/<?php echo mysqli_fetch_array($all_goods_img_res)["url"]?>">
 						<p class="all_goods_title"><?php echo $all_goods["title"]; ?></p>
 						<?php

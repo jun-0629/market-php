@@ -1,0 +1,286 @@
+.goods_top{
+	display: table;
+	width: 1020px;
+	margin: 50px auto;
+	padding: 0;
+	font-size: 0;
+	border-collapse: collapse;
+}
+
+.goods_top_left{
+	vertical-align: top;
+}
+
+.goods_top > div{
+	display: table-cell;
+	width: 510px;
+	border: 1px solid rgb(230, 230, 230);
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 1rem;
+}
+
+.goods_top_image{
+	width: 510px;
+	height: 510px;
+	border-bottom: 1px solid rgb(230, 230, 230);
+	position: relative;
+}
+
+.goods_top_image::before{
+	height: 510px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	content: "";
+}
+
+.goods_top_image > img {
+	position: absolute;
+	max-width: 510px;
+	max-height: 510px;
+	object-fit: cover;
+	vertical-align: middle;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.goods_top_img_collection{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.goods_top_img_collection img{
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+	vertical-align: top;
+	opacity: 0.4;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.goods_top_img_collection img.img_choice{
+	opacity: 1;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.goods_data_view{
+	width: 470px;
+	padding: 20px;
+}
+
+.goods_data_view > h1{
+	margin: 0;
+	font-size: 22px;
+	word-break: break-all;
+	border-bottom: 2px solid rgb(0, 0, 0);
+	padding-bottom: 10px;
+}
+
+.goods_data_view > table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 15px;
+}
+
+.goods_data_view > table > tbody > tr > td{
+	padding: 10px 0;
+}
+
+.goods_data_view > table > tbody > tr > td:first-child{
+	width: 220px;
+	font-weight: bold;
+}
+
+.goods_data_view select{
+	width: 100%;
+	height: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	outline: none;
+}
+
+.price{
+	font-weight: bold;
+	font-size: 0;
+}
+
+.price span{
+	font-size: 1rem
+}
+
+.price span:first-child{
+	font-size: 26px;
+}
+
+.del_price{
+	color: #b5b5b5;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.number_of_additional_shipping_costs{
+	font-size: 13px;
+	opacity: 0.7;
+}
+
+.goods_data_view table tbody tr.option_tr > td{
+	font-weight: normal;
+	display: none;
+}
+
+.count {
+	font-size: 0;
+}
+
+.count input{
+	width: 45px;
+	height: 34px;
+	vertical-align: bottom;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+	border-right: 0;
+	border-left: 0;
+	text-align: center;
+}
+
+
+.count button{
+	width: 34px;
+	line-height: 30px;
+	background-color: rgb(240, 240, 240);
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.option_bottom{
+	margin-top: 10px;
+}
+
+.option_right{
+	display: inline-block;
+	width: 357px;
+	text-align: right;
+}
+
+.option_goods {
+	border-top: 1px solid rgb(0, 0, 0);
+	border-bottom: 1px solid rgb(0, 0, 0);
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.option_goods li{
+	padding: 15px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.option_goods li:last-child{
+	border: none;
+}
+
+.option_delete{
+	cursor: pointer;
+	margin-left: 10px;
+	vertical-align: bottom;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.all_price_td{
+	text-align: right;
+	font-size: 0;
+}
+
+.all_price_td span{
+	font-size: 1rem;
+}
+
+.all_price_td span.all_price{
+	font-size: 35px;
+	color: #587dc4;
+}
+
+.help_tip{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background-color: rgb(188, 219, 234);
+	vertical-align: middle;
+	border-radius: 20px;
+	position: relative;
+}
+
+.help_tip::before{
+	content: "?";
+	font-size: 14px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(255, 255, 255);
+}
+
+.help_tip:hover > div{
+	display: block;
+	transform-origin: 0% 0%;
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+}
+
+.help_tip > div{
+	display: none;
+	position: absolute;
+	width: 300px;
+	padding: 15px;
+	background-color: rgba(29, 26, 26, 0.9);
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+	box-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+	border-radius: 3px;
+	top: 24px;
+	left: -4px;
+	line-height: 1.4;
+}
+
+.help_tip > div::before{
+	position: absolute;
+	content: '';
+	border:6px solid transparent;
+	border-bottom-color:rgba(29, 26, 26, 0.9);
+	left:10px;
+	top:-12px;
+}
+
+.help_tip > div > p{
+	font-weight: normal;
+}
+
+@-webkit-keyframes fadeIn {
+	0% { 
+		opacity:0; 
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity:100%;
+		transform: scale(1);
+	}
+}
